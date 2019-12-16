@@ -25,8 +25,10 @@ Author E-mail: naimlasker@gmail.com
 /* Wide Mobile Layout: 480px */
 /*---------------------------------------------------- */
 .project {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 285px;
+  height: 120px;
   margin-bottom: 30px;
   position: relative;
   z-index: 0; }
@@ -92,10 +94,13 @@ Author E-mail: naimlasker@gmail.com
         opacity: 1; }
         .project .text span {
           color: rgba(255, 255, 255, 0.8); } }
-  .project:hover .overlay, .project:focus .overlay {
+  .project:hover .overlay, .project:focus .overlay{
     opacity: .7; }
-  .project:hover .text, .project:focus .text {
+  .project:hover .text, .project:focus .text, .a2{
     opacity: 1; }
+  
+
+  }
 
     .block-23 ul {
       padding: 0; }
